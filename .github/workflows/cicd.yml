@@ -8,4 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/artifacts@v3
+        with:
+          name: cat
+          path: cat.png
       - run: echo '## Hello, world!' >> $GITHUB_STEP_SUMMARY
