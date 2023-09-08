@@ -1,0 +1,8 @@
+{
+  "yaml.schemas": {
+    "file:///Users/sudame/.vscode/extensions/ibm.zopeneditor-2.0.0/resources/zapp-schema-0.0.2.json": [
+      "zapp.yaml"
+    ],
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/cw-mikihiro.suda/workspace/teasobi/github-actions-example/.github/workflows/action.yml"
+  }
+}
