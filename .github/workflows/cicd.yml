@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/artifact@v3
+      - uses: actions/upload-artifact@v3
         with:
           name: cat
           path: cat.png
